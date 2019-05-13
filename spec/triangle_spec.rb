@@ -26,7 +26,7 @@ describe 'Triangle#is_right_triangle?' do
   end
 end
 
-describe 'Triangle#is_triangle?' do
+describe 'Triangle#what_kind_of_triangle' do
   it 'returns equilateral if all sides are equal' do
     triangle = Triangle.new(2, 2, 2)
     expect(triangle.what_kind_of_triangle).to(eq('equilateral'))
